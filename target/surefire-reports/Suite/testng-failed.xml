@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="path" value=""/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://accounts.google.com"/>
+    <classes>
+      <class name="Gmail_Test.Reading_emails">
+        <methods>
+          <include name="take_screenshot_failure"/>
+          <include name="Login"/>
+          <include name="launchingWebsite"/>
+        </methods>
+      </class> <!-- Gmail_Test.Reading_emails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

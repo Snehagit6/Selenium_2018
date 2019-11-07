@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="path" value=""/>
+    <parameter name="password" value="Flipkart6!"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.flipkart.com"/>
+    <parameter name="username" value="9739593516"/>
+    <classes>
+      <class name="Flipkart_Test.Buying_Book">
+        <methods>
+          <include name="take_screenshot_failedtestcase"/>
+          <include name="launchingWebsite"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Flipkart_Test.Buying_Book -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
